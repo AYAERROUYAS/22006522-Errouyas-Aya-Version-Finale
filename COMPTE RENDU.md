@@ -394,6 +394,4 @@ Ce projet démontre que la **Data Science industrielle** est une discipline hybr
 ✅ **Économique** : Calcul de ROI et optimisation coût-bénéfice  
 ✅ **Éthique** : Conscience des impacts d'une erreur (panne catastrophique)
 
-**La valeur ajoutée** ne réside pas dans le code, mais dans la **traduction d'un problème business en solution ML pertinente**, où chaque choix technique (classe équilibrée, optimisation du Recall) découle d'une contrainte métier réelle.
-
 ---
