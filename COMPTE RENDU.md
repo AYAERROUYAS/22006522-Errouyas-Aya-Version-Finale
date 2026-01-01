@@ -25,13 +25,9 @@ Informations générales, contexte et description du dataset
 Résultats du nettoyage, de l'EDA, des corrélations et performance des modèles
 
 ## **IV. Visualisations**
-7 graphiques générés et leur interprétation
 
 ## **V. Conclusions**
 Découvertes, recommandations et limites
-
-## **VI. Annexes**
-Outils, dictionnaire des variables, références et checklist
 
 ---
 
