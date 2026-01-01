@@ -8,6 +8,32 @@
 ### Machine Predictive Maintenance Classification
 
 ---
+# 📑 Sommaire 
+
+---
+
+## **I. Introduction**
+Informations générales, contexte et description du dataset
+
+## **II. Méthodologie**
+- Nettoyage des données
+- Analyse exploratoire (EDA)
+- Analyse des corrélations
+- Modélisation prédictive (régression linéaire et logistique)
+
+## **III. Résultats**
+Résultats du nettoyage, de l'EDA, des corrélations et performance des modèles
+
+## **IV. Visualisations**
+7 graphiques générés et leur interprétation
+
+## **V. Conclusions**
+Découvertes, recommandations et limites
+
+## **VI. Annexes**
+Outils, dictionnaire des variables, références et checklist
+
+---
 
 ## 1. Le Contexte Métier et la Mission
 
