@@ -1,6 +1,6 @@
 ##  RESSOURCES ESSENTIELLES 
 
-###  Articles académiques (indispensables)
+###  Articles académiques 
 
 * **Matzka (2020)** – Dataset & XAI en maintenance prédictive
   IEEE AI4I
@@ -47,7 +47,7 @@
 
 ---
 
-###  Norme industrielle (optionnelle mais valorisante)
+###  Norme industrielle 
 
 * **ISO 13374-1** – Monitoring et diagnostic des machines
   [https://www.iso.org/standard/21832.html](https://www.iso.org/standard/21832.html)
