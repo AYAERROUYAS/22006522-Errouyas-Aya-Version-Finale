@@ -8,26 +8,123 @@
 ### Machine Predictive Maintenance Classification
 
 ---
-# 📑 Sommaire 
+#  Sommaire 
 
 ---
 
-## **I. Introduction**
-Informations générales, contexte et description du dataset
 
-## **II. Méthodologie**
-- Nettoyage des données
-- Analyse exploratoire (EDA)
-- Analyse des corrélations
-- Modélisation prédictive (régression linéaire et logistique)
+## Introduction Générale
 
-## **III. Résultats**
-Résultats du nettoyage, de l'EDA, des corrélations et performance des modèles
+* Contexte industriel et problématique des pannes imprévues
+* Objectifs du projet de maintenance prédictive
+* Enjeux économiques et stratégiques
+* Asymétrie des coûts d’erreur et choix des métriques prioritaires (Recall)
 
-## **IV. Visualisations**
+---
 
-## **V. Conclusions**
-Découvertes, recommandations et limites
+## Chapitre 1 – Cadre Métier et Données
+
+### 1.1 Présentation du Business Case industriel
+
+### 1.2 Description du dataset de maintenance prédictive
+
+* Origine des données (Kaggle – AI4I 2020)
+* Dimensions et structure du jeu de données
+
+### 1.3 Variables explicatives et variable cible
+
+### 1.4 Typologie des défaillances industrielles
+
+* TWF, HDF, PWF, OSF, RNF
+
+---
+
+## Chapitre 2 – Prétraitement et Nettoyage des Données (Data Wrangling)
+
+### 2.1 Problématiques des données industrielles issues de capteurs IoT
+
+### 2.2 Gestion des valeurs manquantes par imputation statistique
+
+### 2.3 Encodage des variables catégorielles
+
+### 2.4 Normalisation des variables numériques (StandardScaler)
+
+### 2.5 Justification technique des choix de preprocessing
+
+---
+
+## Chapitre 3 – Analyse Exploratoire des Données (EDA)
+
+### 3.1 Analyse du déséquilibre des classes (Class Imbalance)
+
+### 3.2 Limites de la métrique Accuracy en maintenance prédictive
+
+### 3.3 Analyse des corrélations entre variables physiques
+
+### 3.4 Interprétation industrielle des relations observées
+
+---
+
+## Chapitre 4 – Méthodologie de Modélisation
+
+### 4.1 Protocole expérimental et séparation Train/Test stratifiée
+
+### 4.2 Présentation de l’algorithme Random Forest
+
+### 4.3 Gestion du déséquilibre par `class_weight='balanced'`
+
+### 4.4 Principe du bagging et robustesse au bruit industriel
+
+### 4.5 Interprétabilité du modèle par l’importance des variables
+
+---
+
+## Chapitre 5 – Évaluation des Performances du Modèle
+
+### 5.1 Analyse de la matrice de confusion
+
+### 5.2 Calcul et interprétation des métriques clés
+
+* Precision
+* Recall (Sensibilité)
+* F1-score
+
+### 5.3 Analyse des faux positifs et faux négatifs
+
+### 5.4 Évaluation des risques opérationnels liés aux erreurs
+
+---
+
+## Chapitre 6 – Analyse Économique et ROI
+
+### 6.1 Coûts de la maintenance réactive sans IA
+
+### 6.2 Gains liés à la maintenance prédictive
+
+### 6.3 Analyse coût-bénéfice du système IA
+
+### 6.4 Calcul du retour sur investissement (ROI)
+
+---
+
+## Chapitre 7 – Recommandations Opérationnelles
+
+### 7.1 Recommandations pour les ingénieurs de maintenance
+
+### 7.2 Stratégies de déclenchement des alertes par niveau de risque
+
+### 7.3 Recommandations pour l’amélioration du modèle
+
+### 7.4 Suivi du modèle et gestion du data drift
+
+---
+
+## Conclusion Générale
+
+* Apports techniques, métiers et économiques du projet
+* Limites du système proposé
+* Perspectives d’amélioration (XGBoost, SMOTE, données temps réel)
+
 
 ---
 
